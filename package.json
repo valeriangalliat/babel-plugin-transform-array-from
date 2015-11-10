@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-transform-array-from",
+  "version": "1.0.0",
+  "description": "Replace `Array.from` by `require('array-from')`.",
+  "homepage": "https://github.com/valeriangalliat/babel-plugin-transform-array-from",
+  "license": "Unlicense",
+  "author": {
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  },
+  "files": [
+    "README.md",
+    "UNLICENSE",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeriangalliat/babel-plugin-transform-array-from.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1"
+  }
+}
