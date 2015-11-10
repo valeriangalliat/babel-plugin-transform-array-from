@@ -7,7 +7,7 @@ module.exports = function (opts) {
           var prop = path.node.property
 
           if (obj.name === 'Array' && prop.name === 'from') {
-            path.replaceWith(state.addImport('array-from', 'default'))
+            path.replaceWith(state.addImport('array.from', 'default'))
           }
         }
       }
